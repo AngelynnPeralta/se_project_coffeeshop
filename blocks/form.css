@@ -52,7 +52,6 @@ transition: background-color 0.5s;
 
 .form__button:hover {
 background-color: #3f96f3;
-opacity: 70%;
 }
 
 
@@ -70,10 +69,9 @@ opacity: 70%;
   font-family: "Inter", Arial, sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 20px;
 }
 
 
-input::placeholder {
+form__input::placeholder {
   color:  #838383
 }
